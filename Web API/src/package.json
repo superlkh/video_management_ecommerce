@@ -1,0 +1,54 @@
+{
+  "name": "kltn-video",
+  "version": "1.0.0",
+  "description": "Khóa luận tốt nghiệp K17 - Lưu trữ Video cho hệ thống thương mại điện tử",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon cluster.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PhanVoMinhHuy/KLTN-Video.git"
+  },
+  "author": "Huy, Hoang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PhanVoMinhHuy/KLTN-Video/issues"
+  },
+  "homepage": "https://github.com/PhanVoMinhHuy/KLTN-Video#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "axios": "^0.24.0",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cloudinary": "^1.27.1",
+    "cors": "^2.8.5",
+    "cron": "^1.8.2",
+    "deepai": "^1.0.17",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "ffmpeg": "0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "form-data": "^4.0.0",
+    "gify": "^0.2.0",
+    "google-auth-library": "^7.11.0",
+    "googleapis": "^92.0.0",
+    "graphicsmagick": "0.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "mkdirp": "^1.0.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.13",
+    "otp-generator": "^4.0.0",
+    "otplib": "^12.0.1",
+    "passport": "^0.5.2",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "remove.bg": "^1.3.0",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "sharp": "^0.29.3",
+    "videoshow": "^0.1.12",
+    "web-push": "^3.4.5"
+  }
+}
